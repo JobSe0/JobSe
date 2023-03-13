@@ -62,30 +62,19 @@ header{
         height: 21px;
     }
     .side-nav{
+        background-image: url(img/navLines.png);
+        background-size: cover;
+        background-attachment: fixed;
         position: absolute;
-        background: #079F7B;
+        background-color: #079F7B;
         border: 0;
         left: 200px;
-        width: 50px;
-        height: 60px; 
+        width: 45px;
+        height: 45px; 
     }
     .side-nav:hover{
         background-color: aqua;
         border-radius: .3rem;
-    }
-    .side-navbar{
-        position: absolute;
-        left: 205px;
-        background-color: rgb(254, 255, 255);
-        width: 40px;
-        height: 10px;
-        border-radius: 0.5rem;
-    }
-    #side1{
-        top: 1px;
-    }
-    #side2{
-        top: 30px;
     }
 }
 
