@@ -62,7 +62,7 @@ header{
         height: 21px;
     }
     .side-nav{
-        background-image: url(img/navLines.png);
+        background-image: url(img/nav.png);
         background-size: cover;
         background-attachment: fixed;
         position: absolute;
@@ -77,8 +77,3 @@ header{
         border-radius: .3rem;
     }
 }
-
-
-
-
-

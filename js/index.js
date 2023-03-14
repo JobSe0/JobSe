@@ -1,3 +1,0 @@
-function volver(){
-    location:href
-}
