@@ -4,7 +4,7 @@
     padding: 0;
 }
 body{
-    background: url(img/fondo.png);
+    background: url(img/fondo1.png);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -13,13 +13,13 @@ body{
     padding: 15px;
 }
 .formulario{
-    background-color: #FBF7FC;
+    background-color: #1a2537;
     margin-top: 150px;
     padding: 3px;
 }
 h1{
     text-align: center;
-    color: #1a2537;
+    color: #FBF7FC;
     font-family: 'Arima Madurai', cursive;
     font-weight: 600;
     font-size: 40px;
@@ -31,27 +31,30 @@ input[type="password"]{
     width: 82%;
     padding: 10px;
     border: none;
+    background-color: #1a2537;
+    color: rgb(247, 226, 186);
 }
 .input-contenedor{
     margin-bottom: 15px;
-    border: 1px solid #aaa;
+    border: 1px solid #1d2e4b;
 }
 p{
     text-align: center;
     font-family: 'Nunito Sans', sans-serif;
+    color: rgb(247, 226, 186);
 }
 .icon{
     min-width: 50px;
     text-align: center;
-    color: #999;
+    color: rgb(165, 156, 140);
 }
 .btRegistro{
     font-family: 'Signika Negative', sans-serif;
     border: none;
     width: 100%;
-    color: white;
+    color: #1a2537;
     font-size: 20px;
-    background: #1a2537;
+    background: #bccdd4;
     padding: 15px 20px;
     border-radius: 5px;
     cursor: pointer;
@@ -61,12 +64,13 @@ p{
 }
 .login{
     text-decoration: none;
-    color: #1a2537;
+    color: #bccdd4;
     font-weight: 600;
 }
 .login:hover{
-    color: cadetblue;
+    color: #5f9ea0;
 }
+
 @media(min-width:768px){
     .formulario{
         margin: auto;
